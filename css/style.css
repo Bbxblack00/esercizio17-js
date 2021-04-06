@@ -6,5 +6,9 @@
 }
 
 .bg-green {
-  color: green;
+  background-color: green;
+}
+
+.bg-red {
+  background-color: red;
 }
