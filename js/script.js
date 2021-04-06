@@ -62,12 +62,22 @@ function initVue() {
       'number': 0
 
     },
-    methods: {
+    // methods: {
 
       // this.bgClass = 'bg-blue';
-      this.number += 1;
+    // }
 
 
+    methods: {
+      numAdd: function() {
+
+        this.number++;
+
+      },
+      numSub: function() {
+
+        this.number--;
+      }
     }
 
   });
