@@ -69,7 +69,9 @@
           <label>Cognome</label>
           <input type="text" v-model='lastname'>
 
-          <p>Hello {{  given_name  }} {{  lastname  }}</p>
+          <p :class="bg-green">
+            Hello {{  given_name  }} {{  lastname  }}
+          </p>
 
         </div>
 

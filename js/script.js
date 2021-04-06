@@ -17,10 +17,32 @@
 function initVue() {
 
   new Vue({
+    // data: {
+    //
+    //   'msg': 'hello world!'
+    // }
+
+
+
+
+    el: '#app',
     data: {
 
-      'msg': 'hello world!'
+
+      'given_name': '',
+      'lastname': '',
+
+      'bgClasses': 'bg-green'
+    },
+    methods: {
+
+      // todo
+      // ...
+
+      return this.given_name + ' ' + this.lastname;
+
     }
+
   });
 
 }
