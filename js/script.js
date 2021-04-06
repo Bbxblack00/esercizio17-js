@@ -15,8 +15,8 @@
 // }
 
 function initVue() {
-
-  new Vue({
+//
+//   new Vue({
     // data: {
     //
     //   'msg': 'hello world!'
@@ -25,33 +25,48 @@ function initVue() {
 
 
 
+  //   el: '#app',
+  //   data: {
+  //
+  //
+  //     'given_name': '',
+  //     'lastname': '',
+  //
+  //     'computedName': '',
+  //
+  //     'bgClasses': 'bg-green'
+  //   },
+  //   methods: {
+  //
+  //     // todo
+  //     // ...
+  //
+  //     return this.given_name + ' ' + this.lastname;
+  //
+  //   },
+  //   printHello: function() {
+  //
+  //     this.computedName = `hello $(this.given_name) $(this.lastname)`;
+  //
+  //   }
+  //
+  // });
+
+  new Vue({
+
     el: '#app',
     data: {
 
+      'bgClass': 'bg-red'
 
-      'given_name': '',
-      'lastname': '',
-
-      'computedName': '',
-
-      'bgClasses': 'bg-green'
     },
     methods: {
 
-      // todo
-      // ...
-
-      return this.given_name + ' ' + this.lastname;
-
-    },
-    printHello: function() {
-
-      this.computedName = `hello $(this.given_name) $(this.lastname)`;
+      this.bgClass = 'bg-blue';
 
     }
 
   });
-
 }
 
 function initJQuery() {
