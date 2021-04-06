@@ -12,7 +12,7 @@
   </head>
   <body>
 
-    <div id="app" class="container">
+    <!-- <div id="app" class="container">
 
       <div class="row">
 
@@ -46,7 +46,34 @@
 
       </div>
 
-    </div>
+    </div> -->
+
+    <!-- <div id="app" class="container">
+
+      <div class="row">
+
+        <h1 id="text-msg">{{msg}}</h1>
+        <input id="" type="text" v-model="msg">
+
+      </div> -->
+
+      <div id="app" class="container">
+
+        <div class="row">
+
+          <label>Nome</label>
+          <input type="text" v-model='given_name'>
+
+          <br>
+
+          <label>Cognome</label>
+          <input type="text" v-model='lastname'>
+
+          <p>Hello {{  given_name  }} {{  lastname  }}</p>
+
+        </div>
+
+      </div>
 
   </body>
 </html>

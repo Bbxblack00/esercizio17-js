@@ -14,9 +14,7 @@
 
 // }
 
-function init() {
-
-  // testFun();
+function initVue() {
 
   new Vue({
     data: {
@@ -25,7 +23,39 @@ function init() {
     }
   });
 
-  $('#title').text('Ciao Mondo');
+}
+
+function initJQuery() {
+
+  const initText = 'Hello Wortld';
+
+  $('#input-msg').val(initText);
+  $('#text-msg').text(initText);
+  $('#input-msg').keyup(function() {
+
+    const input = $(this);
+    const text = input.val();
+
+    $('#input')
+  })
+
+}
+
+function init() {
+
+  // initVue();
+  initJQuery();
+
+  // testFun();
+
+  // new Vue({
+  //   data: {
+  //
+  //     'msg': 'hello world!'
+  //   }
+  // });
+  //
+  // $('#title').text('Ciao Mondo');
 
   // const myFun = (x, y, z) => x;
 
