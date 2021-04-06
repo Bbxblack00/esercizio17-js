@@ -42,9 +42,8 @@ function initVue() {
       return this.given_name + ' ' + this.lastname;
 
     },
-    // altra funzione
-    altraFun: {
-      
+    printHello: function() {
+      console.log('print hello');
     }
 
   });

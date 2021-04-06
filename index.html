@@ -69,8 +69,10 @@
           <label>Cognome</label>
           <input type="text" v-model='lastname'>
 
-          <p :class="bg-green">
-            Hello {{  given_name  }} {{  lastname  }}
+          <button @click="printHello()">Stampa Saluto</button>
+
+          <p :class="bgClasses">
+
           </p>
 
         </div>
