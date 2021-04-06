@@ -1,6 +1,8 @@
-function 
+function
 
 function init() {
+
+  // const myFun = (x, y, z) => x;
 
 }
 
