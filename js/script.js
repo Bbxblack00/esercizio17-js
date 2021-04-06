@@ -57,12 +57,16 @@ function initVue() {
     el: '#app',
     data: {
 
-      'bgClass': 'bg-red'
+      // 'bgClass': 'bg-red'
+
+      'number': 0
 
     },
     methods: {
 
-      this.bgClass = 'bg-blue';
+      // this.bgClass = 'bg-blue';
+      this.number += 1;
+
 
     }
 
@@ -87,8 +91,8 @@ function initJQuery() {
 
 function init() {
 
-  // initVue();
-  initJQuery();
+  initVue();
+  // initJQuery();
 
   // testFun();
 
