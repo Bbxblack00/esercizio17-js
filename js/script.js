@@ -32,6 +32,8 @@ function initVue() {
       'given_name': '',
       'lastname': '',
 
+      'computedName': '',
+
       'bgClasses': 'bg-green'
     },
     methods: {
@@ -43,7 +45,9 @@ function initVue() {
 
     },
     printHello: function() {
-      console.log('print hello');
+
+      this.computedName = `hello $(this.given_name) $(this.lastname)`;
+
     }
 
   });
