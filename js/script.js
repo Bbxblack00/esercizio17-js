@@ -9,11 +9,14 @@ function testFun(x, y, ...rest) {
   // }
 
   myArr.forEach((element, index) => console.log(index + ' ' + element));
+  // myArr.forEach(function(element) {console.log(element)};
 
 
 }
 
 function init() {
+
+  testFun();
 
   // const myFun = (x, y, z) => x;
 
